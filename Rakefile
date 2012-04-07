@@ -8,6 +8,7 @@ task :deploy do
   dotfiles.each do |file|
     `cp #{file} ~` unless FORBIDDEN_FILES.include?(file)
   end
+  `source ~/.bash_profile`
 end
 
 desc "Get the newest dotfiles froms home"
