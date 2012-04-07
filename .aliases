@@ -76,10 +76,13 @@ alias preview="brake generate && brake preview"
 alias m.='mate .'
 finder() { open -a Finder "$1"; }
 mou() { open -a Mou "$1"; }
-hey() {
-  echo 'hey';
+wit() { 
+  if [ ! -e "$1" ]
+  then
+    touch "$1"; # Create file if required
+  fi
+  open -a "iA Writer" "$1";
 }
-wit() { if [ ! -e "$1" ]; then touch "$1";fi; open -a "iA Writer" "$1"; }
 witr() { touch "README.md"; wit "README.md"; }
 
 # makeiso <disc_image_to_create>.iso <disc_image_source>.dmg
