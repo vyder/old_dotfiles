@@ -58,8 +58,11 @@ alias q="cd ~/Fall\ \'11/\*\ ISProject/quizmaker"
 alias k="cd ~/dev/KeepUp"
 alias m="cd ~/dev/MSIBoothGame2012"
 
+#### Octopress Aliases ###
+alias deploy="brake generate && brake deploy"
+alias preview="brake generate && brake preview"
+
 #### Directory Shortcuts ####
-alias f="cd ~/Fall\ \'11"
 alias s="cd ~/Spring\ \'12"
 
 # bash shortcuts
@@ -84,7 +87,9 @@ cdl () { cd "$1" && ls -l; }
 brake() { bundle exec rake "$1"; }
 
 # Application Aliases
+finder() { open -a Finder "$1"; }
 mou() { open -a Mou "$1"; }
+wit() { open -a "iA Writer" "$1"; }
 
 # Usage:
 # makeiso <disc_image_to_create>.iso <disc_image_source>.dmg

@@ -1,0 +1,30 @@
+## Assembly
+include "~/.nano/asm.nanorc"
+
+## CSS
+include "~/.nano/css.nanorc"
+
+## HTML
+include "~/.nano/html.nanorc"
+
+## Java
+include "~/.nano/java.nanorc"
+
+## Man
+include "~/.nano/man.nanorc"
+
+## nanorc
+include "~/.nano/nanorc.nanorc"
+
+## Python
+include "~/.nano/python.nanorc"
+
+## Ruby
+include "~/.nano/ruby.nanorc"
+
+## shell
+include "~/.nano/sh.nanorc"
+
+## XML
+include "~/.nano/xml.nanorc"
+
