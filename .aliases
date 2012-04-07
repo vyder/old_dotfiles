@@ -7,7 +7,7 @@ md () { mkdir -p "$1" && cd "$1"; } # make and change to a directory
 cdl () { cd "$1" && ls -l; } # change directory and list
 
 # Bash
-alias bashrc='mate ~/.bash_profile'
+alias bashrc='mate ~/.bash_profile' # Old habits
 alias sourceb='source ~/.bash_profile'
 alias pingg='ping google.com'
 
