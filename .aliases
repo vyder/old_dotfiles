@@ -19,6 +19,7 @@ alias s="cd ~/Spring\ \'12"
 alias i="cd ~/Spring\ \'12/\*\ IS\ Project"
 alias q="cd ~/Fall\ \'11/\*\ ISProject/quizmaker"
 alias m="cd ~/dev/MSIBoothGame2012"
+alias blog="cd ~/dev/blog"
 
 ## Listing
 alias la='ls -A'
@@ -76,6 +77,9 @@ alias preview="brake generate && brake preview"
 alias m.='mate .'
 finder() { open -a Finder "$1"; }
 mou() { open -a Mou "$1"; }
+hey() {
+  echo 'hey';
+}
 wit() { 
   if [ ! -e "$1" ]
   then
