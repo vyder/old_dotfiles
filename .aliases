@@ -8,12 +8,14 @@ cdl () { cd "$1" && ls -l; } # change directory and list
 
 # Bash
 alias bashrc='mate ~/.bash_profile' # Old habits
+alias aliases='mate ~/.aliases'
 alias sourceb='source ~/.bash_profile'
 alias pingg='ping google.com'
 
 ## Folders
 alias cD='cd ~/Desktop'
 alias cdd='cd ~/Desktop'
+alias dev='cd ~/dev'
 # Project Aliases
 alias s="cd ~/Spring\ \'12"
 alias i="cd ~/Spring\ \'12/\*\ IS\ Project"
@@ -31,6 +33,8 @@ upNotes () { ~/Spring\ \'12/upNotes.sh; }
 # common typos
 alias claer='clear'
 
+#-- SSH
+alias 'vm.com'='ssh vidur@vidurmurali.com'
 
 #-- Rails
 # Server
@@ -76,6 +80,8 @@ alias preview="brake generate && brake preview"
 #----- Application Shortcuts
 alias m.='mate .'
 finder() { open -a Finder "$1"; }
+chrome() { open -a "Google Chrome" "$1"; }
+coda() { open -a "Coda 2" "$1"; }
 mou() { open -a Mou "$1"; }
 hey() {
   echo 'hey';

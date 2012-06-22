@@ -21,6 +21,6 @@ source '.aliases'
 [[ -s "/Users/Vidur/.rvm/scripts/rvm" ]] && source "/Users/Vidur/.rvm/scripts/rvm"
 
 # Path
-export PATH=/usr/local/bin:/usr/local/share/npm/bin:/usr/local/bin/coffee:$PATH
+export PATH=/usr/local/mysql-5.5.23-osx10.6-x86_64/bin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/bin/coffee:/Users/Vidur/bin:$PATH
 
 clear
