@@ -80,6 +80,7 @@ alias preview="brake generate && brake preview"
 
 #----- Application Shortcuts
 alias m.='mate .'
+alias s.='sub .'
 finder() { open -a Finder "$1"; }
 chrome() { open -a "Google Chrome" "$1"; }
 coda() { open -a "Coda 2" "$1"; }
