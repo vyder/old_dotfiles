@@ -5,6 +5,7 @@ alias ~='cd ~'
 alias c='clear'
 md () { mkdir -p "$1" && cd "$1"; } # make and change to a directory
 cdl () { cd "$1" && ls -l; } # change directory and list
+alias quit='exit'
 
 # Bash
 alias bashrc='mate ~/.bash_profile' # Old habits
