@@ -20,6 +20,9 @@ source '.aliases'
 # This loads RVM into a shell session.
 [[ -s "/Users/Vidur/.rvm/scripts/rvm" ]] && source "/Users/Vidur/.rvm/scripts/rvm"
 
+# Default Editor
+EDITOR=mate
+
 # Path
 export PATH=/usr/local/mysql-5.5.23-osx10.6-x86_64/bin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/bin/coffee:/Users/Vidur/bin:$PATH
 
