@@ -22,6 +22,7 @@ source '.aliases'
 
 # Default Editor
 EDITOR=mate
+WRITER='wit' # wit alias for 'iA Writer'
 
 # Path
 export PATH=/usr/local/mysql-5.5.23-osx10.6-x86_64/bin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/bin/coffee:/Users/Vidur/bin:$PATH
